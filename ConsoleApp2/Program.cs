@@ -14,7 +14,7 @@ namespace ConsoleApp2
         {
             Console.WriteLine("zandej mem xd");
 
-            Console.ReadKey("4");
+            Console.ReadKey();
 
 
 
@@ -23,8 +23,11 @@ namespace ConsoleApp2
                 {
                     for (int y = 0; y < width; y++)
                     {
-                        canvas[x, y] = 0;
-                        Console.Write(canvas[x, y]);
+                        
+                     Console.Write(canvas[x, y].ToString());
+                        {
+                            canvas[x, y] = 0;
+                        }
                     }
                     Console.WriteLine();
                 }
