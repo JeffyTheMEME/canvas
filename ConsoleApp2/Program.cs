@@ -23,11 +23,8 @@ namespace ConsoleApp2
                 {
                     for (int y = 0; y < width; y++)
                     {
-                        
+                        canvas[x, y] = 0;
                      Console.Write(canvas[x, y].ToString());
-                        {
-                            canvas[x, y] = 0;
-                        }
                     }
                     Console.WriteLine();
                 }
